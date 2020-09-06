@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imaga/jpg" href="../imagenes/icon.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="flexbox.css">
+
+    <title>Contactos</title>
+</head>
+
+<body>
+    <nav class="main-menu">
+        <img src="imagenes/icon.png" alt="icono_gela" width="7%" height="3%">
+        <ul class="main-menu opt-menu">
+            <li><a href="./inicio.html">inicio</a></li>
+            <li><a href="quiensoy.html">sobre mi </a></li>
+            <li><a href="">contactanos</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>formulario de contacto </h1>
+        <form class="form-flex" method="GET" action="">
+
+            <div class="input-form">
+                <div>
+                    <label for="nombre">nombre</label>
+                </div>
+                <input id="nombre" name="nombre" type="text" required>
+            </div>
+
+            <div class="input-form">
+                <div>
+                    <label for="apellido">apellido</label>
+                </div>
+                <input id="apellido" name="apellido" type="text" required>
+            </div>
+
+            <div class="input-form">
+                <div>
+                    <label for="edad">edad</label>
+                </div>
+                <input id="edad" name="edad" type="number" required>
+            </div>
+            <div class="input-form">
+                <div>
+                    <label for="email">email</label>
+                </div>
+                <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="input-form">
+                <div>
+                    <label for="contraseña">contraseña</label>
+                </div>
+                <input id="contraseña" name="contraseña" type="password" required>
+            </div>
+
+            <div class="input-form">
+                <div>
+                    <label for="fechaNacimiendo">fecha de nacimiendo </label>
+                </div>
+                <input id="fechaNacimiendo" name="fechaNacimiendo" type="date">
+            </div>
+            <section class="opti">
+                <div class="input-form opciones">
+
+                    <h4>Genero</h4>
+
+                    <input id="mujer" name="genero" type="radio">
+                    <label for="mujer">mujer </label>
+
+                    <input id="hombre" name="genero" type="radio">
+                    <label for="hombre">hombre </label>
+
+                </div>
+
+                <div class="input-form opciones">
+                    
+                        <h4>Deporte favorito</h4>
+                    
+                    <input id="voleibol" name="voleibol" type="checkbox">
+                    <label for="voleibol">voleibol </label>
+
+                    <input id="natacion" name="natacion" type="checkbox">
+                    <label for="natacion">natacion </label>
+
+                    <input id="tenis" name="tenis" type="checkbox">
+                    <label for="tenis">tenis </label>
+
+                    <input id="patinaje" name="patinaje" type="checkbox">
+                    <label for="patinaje">patinaje </label>
+
+                </div>
+            </section>
+            <div class="form-button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+
+
+    </div>
+
+    <footer>
+
+        <p>hecho con <i class="fas fa-heart"></i> por Geraldien Romero</p>
+
+    </footer>
+</body>
+
+</html>
