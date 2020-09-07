@@ -2,8 +2,11 @@
     margin: 0;
     padding:0;
     font-family: 'Poiret One', cursive;
-   
+    font-size: 23;
+    
+ 
 }
+
 body{
     /* background-color: cornflowerblue;
     background: rgba(179,220,237,1); */
@@ -18,6 +21,9 @@ background: -ms-linear-gradient(-45deg, rgba(179, 219, 237, 0.435)
  13%, rgba(229, 41, 204, 0.156)  61%, rgba(165,218,237,0.49) 94%, rgba(188, 224, 238, 0.279) 100%);
 background: linear-gradient(135deg, rgba(179, 219, 237, 0.435)0%,rgba(150, 212, 235, 0.544) 13%, rgba(229, 41, 204, 0.156)  61%, rgba(165,218,237,0.49) 94%, rgba(188,224,238,0.49) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+/* background-repeat: no-repeat;
+background-image: url("./imagenes/cora.png");
+background-size: cover; */
 }
 /* .flex-content{
     background-color: cadetblue;
